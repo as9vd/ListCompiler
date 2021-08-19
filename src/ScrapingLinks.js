@@ -7,15 +7,15 @@ process.setMaxListeners(0);
 
 let wikiLinks = [];
 
-async function scrapeLinks() { // Solve the Koeman, Gomes, & Brady problem.
+async function scrapeLinks() {
     for (var data in jsonData) {
         let url = await "https://www.google.com/search?q=" + data + " Wikipedia";
 
-        if (data === "Terry McDermott") {
+        if (data === "Terry McDermott") { // McDermott is a special case.
             url = await "https://www.google.com/search?q=" + data + " footballer";
         }
 
-        const browser = await puppeteer.launch({headless: false});
+        const browser = await puppeteer.launch({headless: true});
         const page = await browser.newPage();
         await page.setDefaultNavigationTimeout(0);
         await page.goto(url);
@@ -53,10 +53,20 @@ async function scrapeLinks() { // Solve the Koeman, Gomes, & Brady problem.
         var txt = await link.getProperty('href');
         var rawTxt = await txt.jsonValue();
 
-        await console.log(rawTxt);
+        await wikiLinks.push(rawTxt);
 
         await browser.close();
     }
+
+    let i = await 0;
+
+    for (var data in jsonData) {
+        jsonData[data]["wiki"] = await wikiLinks[i];
+
+        await i++
+    }
+
+    console.log(jsonData);
 }
 
 scrapeLinks();
