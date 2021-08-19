@@ -1,0 +1,812 @@
+{
+	 "Michel Platini": {
+	 	"nation": "France",
+	 	"votes": "447",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Karl-Heinz Rummenigge": {
+	 	"nation": "West Germany",
+	 	"votes": "316",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Marco van Basten": {
+	 	"nation": "Netherlands",
+	 	"votes": "268",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ruud Gullit": {
+	 	"nation": "Netherlands",
+	 	"votes": "216",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Preben Elkjær": {
+	 	"nation": "Denmark",
+	 	"votes": "143",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Bernd Schuster": {
+	 	"nation": "West Germany",
+	 	"votes": "139",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Emilio Butragueño": {
+	 	"nation": "Spain",
+	 	"votes": "124",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paolo Rossi": {
+	 	"nation": "Italy",
+	 	"votes": "118",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paulo Futre": {
+	 	"nation": "Portugal",
+	 	"votes": "98",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Frank Rijkaard": {
+	 	"nation": "Netherlands",
+	 	"votes": "88",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Alain Giresse": {
+	 	"nation": "France",
+	 	"votes": "85",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Franco Baresi": {
+	 	"nation": "Italy",
+	 	"votes": "85",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Igor Belanov": {
+	 	"nation": "Soviet Union",
+	 	"votes": "84",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ian Rush": {
+	 	"nation": "Wales",
+	 	"votes": "81",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gary Lineker": {
+	 	"nation": "England",
+	 	"votes": "76",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Zbigniew Boniek": {
+	 	"nation": "Poland",
+	 	"votes": "75",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paul Breitner": {
+	 	"nation": "West Germany",
+	 	"votes": "65",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jean Tigana": {
+	 	"nation": "France",
+	 	"votes": "60",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Bruno Conti": {
+	 	"nation": "Italy",
+	 	"votes": "52",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Rinat Dasayev": {
+	 	"nation": "Soviet Union",
+	 	"votes": "51",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Oleksiy Mykhaylychenko": {
+	 	"nation": "Soviet Union",
+	 	"votes": "47",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Lothar Matthäus": {
+	 	"nation": "West Germany",
+	 	"votes": "41",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ronald Koeman": {
+	 	"nation": "Netherlands",
+	 	"votes": "40",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Bryan Robson": {
+	 	"nation": "England",
+	 	"votes": "38",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Kenny Dalglish": {
+	 	"nation": "Scotland",
+	 	"votes": "37",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Míchel": {
+	 	"nation": "Spain",
+	 	"votes": "37",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jan Ceulemans": {
+	 	"nation": "Belgium",
+	 	"votes": "31",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Dino Zoff": {
+	 	"nation": "Italy",
+	 	"votes": "31",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Wilfried Van Moer": {
+	 	"nation": "Belgium",
+	 	"votes": "30",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Oleksandr Zavarov": {
+	 	"nation": "Soviet Union",
+	 	"votes": "29",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Peter Shilton": {
+	 	"nation": "England",
+	 	"votes": "27",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Manuel Amoros": {
+	 	"nation": "France",
+	 	"votes": "27",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gordon Strachan": {
+	 	"nation": "Scotland",
+	 	"votes": "26",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jean-Marie Pfaff": {
+	 	"nation": "Belgium",
+	 	"votes": "26",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Allan Simonsen": {
+	 	"nation": "Denmark",
+	 	"votes": "25",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Horst Hrubesch": {
+	 	"nation": "West Germany",
+	 	"votes": "23",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Liam Brady": {
+	 	"nation": "Republic of Ireland",
+	 	"votes": "21",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Felix Magath": {
+	 	"nation": "West Germany",
+	 	"votes": "20",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Dragan Stojković": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "20",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Michael Laudrup": {
+	 	"nation": "Denmark",
+	 	"votes": "19",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Fernando Chalana": {
+	 	"nation": "Portugal",
+	 	"votes": "18",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Graeme Souness": {
+	 	"nation": "Scotland",
+	 	"votes": "18",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gianluca Vialli": {
+	 	"nation": "Italy",
+	 	"votes": "17",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jesper Olsen": {
+	 	"nation": "Denmark",
+	 	"votes": "16",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jürgen Klinsmann": {
+	 	"nation": "West Germany",
+	 	"votes": "16",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Herbert Prohaska": {
+	 	"nation": "Austria",
+	 	"votes": "15",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Harald Schumacher": {
+	 	"nation": "West Germany",
+	 	"votes": "15",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gheorghe Hagi": {
+	 	"nation": "Romania",
+	 	"votes": "15",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Oleg Blokhin": {
+	 	"nation": "Soviet Union",
+	 	"votes": "14",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Fernando Gomes": {
+	 	"nation": "Portugal",
+	 	"votes": "14",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Morten Olsen": {
+	 	"nation": "Denmark",
+	 	"votes": "14",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Glenn Hysén": {
+	 	"nation": "Sweden",
+	 	"votes": "14",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Søren Lerby": {
+	 	"nation": "Denmark",
+	 	"votes": "14",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Erwin Vandenbergh": {
+	 	"nation": "Belgium",
+	 	"votes": "13",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Bruno Pezzey": {
+	 	"nation": "Austria",
+	 	"votes": "13",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Pierre Littbarski": {
+	 	"nation": "West Germany",
+	 	"votes": "13",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Luis Arconada": {
+	 	"nation": "Spain",
+	 	"votes": "12",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Hans-Peter Briegel": {
+	 	"nation": "West Germany",
+	 	"votes": "12",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "John Barnes": {
+	 	"nation": "England",
+	 	"votes": "12",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Michel Preud'homme": {
+	 	"nation": "Belgium",
+	 	"votes": "12",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Hansi Müller": {
+	 	"nation": "West Germany",
+	 	"votes": "11",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Alessandro Altobelli": {
+	 	"nation": "Italy",
+	 	"votes": "11",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Maxime Bossis": {
+	 	"nation": "France",
+	 	"votes": "11",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Manfred Kaltz": {
+	 	"nation": "West Germany",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ramaz Shengelia": {
+	 	"nation": "Soviet Union",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Franky Vercauteren": {
+	 	"nation": "Belgium",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Rudi Völler": {
+	 	"nation": "West Germany",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Oleh Protasov": {
+	 	"nation": "Soviet Union",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Luis Fernández": {
+	 	"nation": "France",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Helmuth Duckadam": {
+	 	"nation": "Romania",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jean-Pierre Papin": {
+	 	"nation": "France",
+	 	"votes": "10",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ruud Krol": {
+	 	"nation": "Netherlands",
+	 	"votes": "9",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Alexsandr Chivadze": {
+	 	"nation": "Soviet Union",
+	 	"votes": "9",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Klaus Allofs": {
+	 	"nation": "West Germany",
+	 	"votes": "9",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Safet Sušić": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "8",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Giancarlo Antognoni": {
+	 	"nation": "Italy",
+	 	"votes": "7",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "John Wark": {
+	 	"nation": "Scotland",
+	 	"votes": "7",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "David Kipiani": {
+	 	"nation": "Soviet Union",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Andras Toroczik": {
+	 	"nation": "Hungary",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Eric Gerets": {
+	 	"nation": "Belgium",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Antonio Cabrini": {
+	 	"nation": "Italy",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Mark Hateley": {
+	 	"nation": "England",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Oleh Kuznetsov": {
+	 	"nation": "Soviet Union",
+	 	"votes": "6",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Tibor Nyilasi": {
+	 	"nation": "Hungary",
+	 	"votes": "5",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Norman Whiteside": {
+	 	"nation": "Northern Ireland",
+	 	"votes": "5",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Enzo Scifo": {
+	 	"nation": "Belgium",
+	 	"votes": "5",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Rafael Gordillo": {
+	 	"nation": "Spain",
+	 	"votes": "5",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Vladimir Petrovic": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "5",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Terry McDermott": {
+	 	"nation": "England",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Viv Anderson": {
+	 	"nation": "England",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Francesco Graziani": {
+	 	"nation": "Italy",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Zlatko Vujovic": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Trevor Brooking": {
+	 	"nation": "England",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Neville Southall": {
+	 	"nation": "Wales",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Anatoliy Demyanenko": {
+	 	"nation": "Soviet Union",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Toni Schumacher": {
+	 	"nation": "West Germany",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Toni Polster": {
+	 	"nation": "Austria",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Tanju Çolak": {
+	 	"nation": "Turkey",
+	 	"votes": "4",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ladislav Vízek": {
+	 	"nation": "Czechoslovakia",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Manuel Bento": {
+	 	"nation": "Portugal",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Frank Stapleton": {
+	 	"nation": "Ireland",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Carlos Manuel": {
+	 	"nation": "Portugal",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Vasilis Hatzipanagis": {
+	 	"nation": "Greece",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Costică Ștefănescu": {
+	 	"nation": "Romania",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Rui Jordão": {
+	 	"nation": "Portugal",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "John Sivebæk": {
+	 	"nation": "Denmark",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Pavlo Yakovenko": {
+	 	"nation": "Soviet Union",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paul McGrath": {
+	 	"nation": "Republic of Ireland",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Andreas Brehme": {
+	 	"nation": "West Germany",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Karl-Heinz Riedle": {
+	 	"nation": "West Germany",
+	 	"votes": "3",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Frank Arnesen": {
+	 	"nation": "Denmark",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Antonín Panenka": {
+	 	"nation": "Czechoslovakia",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "David O'Leary": {
+	 	"nation": "Republic of Ireland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Vladimir Petrović": {
+	 	"nation": "SFR Yugoslavia",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Grzegorz Lato": {
+	 	"nation": "Poland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Wlodzimierz Smolarek": {
+	 	"nation": "Poland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Frans Thijssen": {
+	 	"nation": "Netherlands",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gaetano Scirea": {
+	 	"nation": "Italy",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Torbjörn Nilsson": {
+	 	"nation": "Sweden",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Fedor Cherenkov": {
+	 	"nation": "Soviet Union",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paul McStay": {
+	 	"nation": "Scotland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Lajos Détári": {
+	 	"nation": "Hungary",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Vahid Halilhodžić": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Peter Reid": {
+	 	"nation": "England",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Pat Jennings": {
+	 	"nation": "Northern Ireland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Karlheinz Förster": {
+	 	"nation": "West Germany",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Peter Beardsley": {
+	 	"nation": "England",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Józef Młynarczyk": {
+	 	"nation": "Poland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Heinz Hermann": {
+	 	"nation": "Switzerland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ally McCoist": {
+	 	"nation": "Scotland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Rodion Cămătaru": {
+	 	"nation": "Romania",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Flemming Povlsen": {
+	 	"nation": "Denmark",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Walter Zenga": {
+	 	"nation": "Italy",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Packie Bonner": {
+	 	"nation": "Republic of Ireland",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Andreas Möller": {
+	 	"nation": "West Germany",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Julio Salinas": {
+	 	"nation": "Spain",
+	 	"votes": "2",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Marcel Răducanu": {
+	 	"nation": "Romania",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Trevor Francis": {
+	 	"nation": "England",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Zdeněk Nehoda": {
+	 	"nation": "Czechoslovakia",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "António Oliveira": {
+	 	"nation": "Portugal",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Uli Stielike": {
+	 	"nation": "West Germany",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Jesús Zamora": {
+	 	"nation": "Spain",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Walter Schachner": {
+	 	"nation": "Austria",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Marius Trésor": {
+	 	"nation": "France",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Stoycho Mladenov": {
+	 	"nation": "Bulgaria",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Silviu Lung": {
+	 	"nation": "Romania",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Steve Archibald": {
+	 	"nation": "Scotland",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Georgi Dimitrov": {
+	 	"nation": "Bulgaria",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Gary Stevens": {
+	 	"nation": "England",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Andreas Thom": {
+	 	"nation": "East Germany",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Ladislav Vizek": {
+	 	"nation": "Czechoslovakia",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Marco Tardelli": {
+	 	"nation": "Italy",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Antonio Maceda": {
+	 	"nation": "Spain",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Glenn Hoddle": {
+	 	"nation": "England",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Sokol Kushta": {
+	 	"nation": "Albania",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Dimitris Saravakos": {
+	 	"nation": "Greece",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Roberto Mancini": {
+	 	"nation": "Italy",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Dejan Savićević": {
+	 	"nation": "Yugoslavia",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Thomas Häßler": {
+	 	"nation": "West Germany",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Robby Langers": {
+	 	"nation": "Luxembourg",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Paolo Maldini": {
+	 	"nation": "Italy",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}, 
+	 "Theo Snelders": {
+	 	"nation": "Netherlands",
+	 	"votes": "1",
+	 	"wiki": "|| THIS IS FILLER ||"
+ 	}
+}
