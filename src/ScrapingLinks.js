@@ -67,30 +67,74 @@ async function scrapeLinks() {
 }
 
 async function scrapeClubs() { // Find out what clubs a lad played for in the 80's (January 1st, 1980 - December 31st, 1989).
-    let i = 0;
+    let i = 1;
+    let j = 1;
 
-    // for (var data in jsonData) {
-        // let url = jsonData[data]["wiki"];
+    // let url = jsonData["Michel Platini"]['wiki'];
+    let url = jsonData["Marco Tardelli"]['wiki']
+    // let url = jsonData["Grzegorz Lato"]['wiki']
 
-        let url = jsonData["Liam Brady"]["wiki"];
+    const browser = await puppeteer.launch({headless: true});
+    const page = await browser.newPage();
+    await page.setDefaultNavigationTimeout(0);
+    await page.goto(url);
 
-        const browser = await puppeteer.launch({headless: true});
-        const page = await browser.newPage();
-        await page.setDefaultNavigationTimeout(0);
-        await page.goto(url);
+    var [seniorCareer] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[1]');
 
-        var [seniorCareer] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[10]');
+    var txt = await seniorCareer.getProperty('textContent');
+    var rawTxt = await txt.jsonValue();
+
+    while (true) { // This is for the normal cases.
+        await j++;
+
+        [seniorCareer] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[' + j + ']');
+
+        if (seniorCareer == null) {
+            break;
+        }
 
         var txt = await seniorCareer.getProperty('textContent');
         var rawTxt = await txt.jsonValue();
 
-        if (rawTxt.replace(/[^a-zA-Z ]/g, "").toLowerCase().includes("senior career")) { // Remove all special characters, and make it lowercase.
-            await console.log("YES");
+        await console.log(rawTxt);
+    }
+
+    while (!(rawTxt.replace(/[^a-zA-Z ]/g, "").toLowerCase().includes("senior career"))) { // Remove all special characters, and make it lowercase.
+        [seniorCareer] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[' + i + "]");   
+
+        var txt = await seniorCareer.getProperty('textContent');
+        var rawTxt = await txt.jsonValue();
+
+        var splitLines = rawTxt.split('\n'); // Certain players with political careers have non-straightforward table xpaths, e.g. Platini & Lato.
+
+        console.log(i + ": " + rawTxt)
+            
+        if ((splitLines.length > 1) && ((rawTxt.replace(/[^a-zA-Z ]/g, "").toLowerCase().includes("senior career")))) {
+            console.log(i);
+            var [team] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[' + i + "]" + "/td/table/tbody/tr[" + j + "]");   
+
+            while (true) {
+                await j++;
+
+                [team] = await page.$x('//*[@id="mw-content-text"]/div[1]/table[1]/tbody/tr[' + i + "]" + "/td/table/tbody/tr[" + j + "]");   
+
+                if (team == null) {
+                    break;
+                }
+
+                var teamTxt = await team.getProperty('textContent');
+                var rawTeamTxt = await teamTxt.jsonValue();
+
+                if (rawTeamTxt.split("\n").length === 4 && (!(rawTeamTxt.split("\n").includes("Years")) && (!(rawTeamTxt.split("\n").includes("Total"))))) {
+                    console.log(rawTeamTxt.split("\n")[0] + ": " + rawTeamTxt.split("\n")[1]);
+                }
+            }
         }
 
         await i++
-        await browser.close();
-    // }
+    }
+
+    await browser.close();
 }
 
 scrapeClubs();
