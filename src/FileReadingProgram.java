@@ -15,7 +15,7 @@ public class FileReadingProgram {
         String line;
 
         BufferedReader fr = new BufferedReader(new FileReader("/Users/asadbekshamsiev/Desktop/JavaScraping/FootballerLists/80sCombinedFootballerList.txt"));
-        FileWriter fileWriter = new FileWriter("TestFile.json");
+        FileWriter fileWriter = new FileWriter("WorldFootball.json");
 
         fileWriter.write("{");
 
@@ -33,8 +33,11 @@ public class FileReadingProgram {
             fileWriter.write("\n" + "\t \t");
             fileWriter.write("\"votes\":" + " \"" + findPlayerVotes(parts[0]) + "\","); // Writes player votes.
 
+//            fileWriter.write("\n" + "\t \t");
+//            fileWriter.write("\"wiki\":" + " \"" + "|| THIS IS FILLER ||" + "\","); // Writes player Wikipedia link.
+
             fileWriter.write("\n" + "\t \t");
-            fileWriter.write("\"wiki\":" + " \"" + "|| THIS IS FILLER ||" + "\""); // Writes player link.
+            fileWriter.write("\"wf\":" + " \"" + "|| THIS IS FILLER ||" + "\""); // Writes player WorldFootball link.
 
             fileWriter.write( "\n \t" + "}, "); // Ends line.
         }
