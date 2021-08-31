@@ -1,9 +1,14 @@
 const puppeteer = require('puppeteer');
-var jsonData = require("/Users/asadbekshamsiev/Desktop/JavaScraping/TestFile.json");
-const { table } = require('console');
+var jsonData = require("/Users/asadbekshamsiev/Desktop/JavaScraping/WorldFootball.json");
+const puppeteerExtra = require('puppeteer-extra');
+const pluginStealth = require('puppeteer-extra-plugin-stealth');
+const fs = require('fs')
+var userAgent = require('user-agents');
 
 process.setMaxListeners(0);
 let wikiLinks = [];
+let playerNames =[];
+let wfLinks = [];
 let teamYearsFormat = [{
     "clubs": [
         {
@@ -13,7 +18,7 @@ let teamYearsFormat = [{
     ]
 }];
 
-async function scrapeLinks() {
+async function scrapeLinksWiki() {
     for (var data in jsonData) {
         let url = await "https://www.google.com/search?q=" + data + " Wikipedia";
 
@@ -69,6 +74,120 @@ async function scrapeLinks() {
     for (var data in jsonData) {
         jsonData[data]["wiki"] = await wikiLinks[i];
         console.log(jsonData[data]["wiki"]);
+
+        await i++
+    }
+}
+
+async function scrapeLinksWF() {
+    puppeteerExtra.use(pluginStealth());
+
+    let counter = await 0;
+
+    for (var data in jsonData) {
+        let url = await "https://www.google.com/search?q=" + data + " WorldFootball.net";
+
+        if (data === "Oleksiy Mykhaylychenko") { // Miko is a special case.
+            url = await "https://www.google.com/search?q=Aleksey Mikhaylichenko WorldFootball.net";
+        }
+            
+        var browser = await puppeteer.launch({
+            executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            headless: false
+        });
+        var page = await browser.newPage();
+        // await page.setUserAgent( "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4182.0 Safari/537.36");
+        await page.setDefaultNavigationTimeout(0);
+        await page.goto(url);
+
+        var [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div/div[1]/a');
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div[1]/a');
+        }
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div/div/div/div[1]/a');
+        }
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div[1]/div/div/div/div[1]/a');
+        }
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[1]/div/div/div/div/div/div/div/div[1]/a');
+        }
+        
+        if (link == null) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[2]/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[2]/div/div/div/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        if (link == null) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[3]/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        var txt = await link.getProperty('href');
+        var rawTxt = await txt.jsonValue();
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div[1]/a');
+        }
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div/div/div/div[1]/a');
+        }
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="rso"]/div[1]/div/div/div[1]/div/div/div/div[1]/a');
+        }
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[1]/div/div/div/div/div/div/div/div[1]/a');
+        }
+        
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[2]/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[2]/div/div/div/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        if (!(rawTxt.includes("worldfootball.net"))) {
+            [link] = await page.$x('//*[@id="kp-wp-tab-overview"]/div[3]/div/div/div/div/div/div/div/div[1]/a');
+        }
+
+        txt = await link.getProperty('href');
+        rawTxt = await txt.jsonValue();
+
+        await wfLinks.push(rawTxt);
+        await playerNames.push(data);
+
+        console.log(data);
+
+        if (counter > 0 && counter % 2 == 0) {
+            console.log(wfLinks[counter]);
+            for (let x = counter - 2; x < counter; await x++) {
+                await fs.appendFile('../SavedLinks.txt', wfLinks[x] + " - " + playerNames[x] + "\n", (err) => { // Add the name of the footballer to this shyt.
+                    if (err) throw err;
+                })
+            }
+        }
+
+        await browser.close();
+
+        await counter++;
+    }
+
+    let i = await 0;
+
+    for (var data in jsonData) {
+        jsonData[data]["wf"] = await wfLinks[i];
+        console.log(jsonData[data]["wf"]);
 
         await i++
     }
@@ -149,5 +268,4 @@ async function scrapeClubsWiki() { // Find out what clubs a lad played for in th
     await browser.close();
 }
 
-// scrapeClubsWiki();
-scrapeLinks();
+scrapeLinksWF();

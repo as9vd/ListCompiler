@@ -68,6 +68,7 @@ async function scrapeLinks() {
 
     for (var data in jsonData) {
         jsonData[data]["wiki"] = await wikiLinks[i];
+        console.log(jsonData[data]["wiki"]);
 
         await i++
     }
@@ -148,4 +149,5 @@ async function scrapeClubsWiki() { // Find out what clubs a lad played for in th
     await browser.close();
 }
 
-scrapeClubsWiki();
+// scrapeClubsWiki();
+scrapeLinks();
