@@ -2,13 +2,14 @@ const puppeteer = require('puppeteer');
 var jsonData = require("/Users/asadbekshamsiev/Desktop/JavaScraping/WorldFootball.json");
 const puppeteerExtra = require('puppeteer-extra');
 const pluginStealth = require('puppeteer-extra-plugin-stealth');
-const fs = require('fs')
-var userAgent = require('user-agents');
+const fs = require('fs');
 
 process.setMaxListeners(0);
 let wikiLinks = [];
 let playerNames =[];
 let wfLinks = [];
+let currentList = " ";
+
 let teamYearsFormat = [{
     "clubs": [
         {
@@ -82,21 +83,38 @@ async function scrapeLinksWiki() {
 async function scrapeLinksWF() {
     puppeteerExtra.use(pluginStealth());
 
+    await fs.readFile('../SavedLinks.txt', (err, data) => {
+        if (err) throw err;
+    
+        currentList = data.toString();
+    });
+
+    await console.log(data);
+
     let counter = await 0;
 
     for (var data in jsonData) {
+        if (currentList.includes(data)) {
+            continue;
+        }
+
+        console.log(data);
+
         let url = await "https://www.google.com/search?q=" + data + " WorldFootball.net";
 
         if (data === "Oleksiy Mykhaylychenko") { // Miko is a special case.
             url = await "https://www.google.com/search?q=Aleksey Mikhaylichenko WorldFootball.net";
         }
+
+        if (data == "Vasilis Hatzipanagis") { // As is this Uzbek lad.
+            url = await "https://www.google.com/search?q=Vasilis Chatzipanagis WorldFootball.net"
+        }
             
         var browser = await puppeteer.launch({
             executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-            headless: false
+            headless: true
         });
         var page = await browser.newPage();
-        // await page.setUserAgent( "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4182.0 Safari/537.36");
         await page.setDefaultNavigationTimeout(0);
         await page.goto(url);
 
