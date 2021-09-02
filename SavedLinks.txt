@@ -69,7 +69,7 @@ https://www.worldfootball.net/player_summary/rudi-voeller/ - Rudi Völler
 https://www.worldfootball.net/player_summary/helmuth-duckadam/ - Helmuth Duckadam
 https://www.worldfootball.net/player_summary/luis-fernandez_12/ - Luis Fernández
 https://www.worldfootball.net/player_summary/jean-pierre-papin/ - Jean-Pierre Papin
-https://www.worldfootball.net/news/ruud-krol/1/ - Ruud Krol
+https://www.worldfootball.net/player_summary/ruud-krol/ - Ruud Krol
 https://www.worldfootball.net/player_summary/klaus-allofs/ - Klaus Allofs
 https://www.worldfootball.net/player_summary/aleksandr-chivadze/ - Alexsandr Chivadze
 https://www.worldfootball.net/player_summary/safet-susic/ - Safet Sušić
@@ -145,7 +145,7 @@ https://www.worldfootball.net/player_summary/walter-schachner/ - Walter Schachne
 https://www.worldfootball.net/player_summary/stoycho-mladenov-jr/ - Stoycho Mladenov
 https://www.worldfootball.net/player_summary/silviu-lung-jr/ - Silviu Lung
 https://www.worldfootball.net/player_summary/steve-archibald/ - Steve Archibald
-https://www.worldfootball.net/referee_summary/georgi-dimitrov_4/ - Georgi Dimitrov
+https://www.worldfootball.net/player_summary/georgi-dimitrov-i/ - Georgi Dimitrov
 https://www.worldfootball.net/player_summary/andreas-thom/ - Andreas Thom
 https://www.worldfootball.net/player_summary/gary-stevens/ - Gary Stevens
 https://www.worldfootball.net/player_summary/marco-tardelli/ - Marco Tardelli

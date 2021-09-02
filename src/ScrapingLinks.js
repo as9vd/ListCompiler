@@ -3,6 +3,12 @@ var jsonData = require("/Users/asadbekshamsiev/Desktop/JavaScraping/WorldFootbal
 const puppeteerExtra = require('puppeteer-extra');
 const pluginStealth = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
+const readline = require('readline');
+
+var rd = readline.createInterface({
+    input: fs.createReadStream('/Users/asadbekshamsiev/Desktop/JavaScraping/SavedLinks.txt'),
+    console: false
+});
 
 process.setMaxListeners(0);
 let wikiLinks = [];
@@ -10,14 +16,7 @@ let playerNames =[];
 let wfLinks = [];
 let currentList = " ";
 
-let teamYearsFormat = [{
-    "clubs": [
-        {
-            "team":"Team A",
-            "years":"19xx-19xx",
-        }
-    ]
-}];
+let teamList = [];
 
 async function scrapeLinksWiki() {
     for (var data in jsonData) {
@@ -286,4 +285,37 @@ async function scrapeClubsWiki() { // Find out what clubs a lad played for in th
     await browser.close();
 }
 
-scrapeLinksWF();
+async function updateJsonWF() {
+    const fileStream = fs.createReadStream('../SavedLinks.txt');
+    const rl = readline.createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+    });
+  
+    for await (const line of rl) {
+        teamList.push({
+            "fullName": line.split(" - ")[1],
+            "link": line.split(" - ")[0]
+        })
+    }
+
+    let i = 0;
+
+    for (var data in jsonData) {
+        // for (var i = 0; i < teamList.length; i++) {
+            // if (teamList[i]["fullName"] == data) {
+
+        jsonData[data]["wf"] = await teamList[i];
+        await i++;
+
+            // }
+        // }
+    }
+    
+    // for (var data in jsonData) {
+    //     jsonData[data]["wf"] = 'blank'
+    //     console.log(jsonData[data]["wf"] == 'blank');
+    // }
+}
+
+updateJsonWF();
